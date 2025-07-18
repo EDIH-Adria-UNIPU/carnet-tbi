@@ -1,0 +1,193 @@
+[
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 33.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_1",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_2",
+        "Question_Text": "Tko je sve **uključen u planiranje** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_3",
+        "Question_Text": "Podržava li visoko učilište **inicijative djelatnika usmjerene na digitalnu preobrazbu**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_4",
+        "Question_Text": "Razvija li visoko učilište **centre podrške digitalnoj preobrazbi,** npr. IT službe, centri za e-učenje?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_5",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**, npr. kadrovske poslove, referadu, knjižnicu?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_6",
+        "Question_Text": "Tko je uključen u donošenje **odluka vezanih uz digitalnu preobrazbu visokog učilišta**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_7",
+        "Question_Text": "Tko i na koji način osigurava **resurse za digitalnu preobrazbu,** npr. opremu, usluge, vrijeme?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_8",
+        "Question_Text": "Brine li visoko učilište o **digitalnoj dobrobiti djelatnika i studenata** (fizičko i psihičko zdravlje)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_9",
+        "Question_Text": "Postoji li na visokom učilištu **sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_10",
+        "Question_Text": "Postoji li **plan razvoja digitalnih kompetencija** nastavnika?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_11",
+        "Question_Text": "Osigurava li visoko učilište **studentima razvoj digitalnih kompetencija** u sklopu studija ili dodatnim besplatnim ili cjenovno prihvatljivim programima?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_12",
+        "Question_Text": "Izvode li se na visokom učilištu **hibridni** i potpuno **online** studiji?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_13",
+        "Question_Text": "Izdaje li visoko učilište **digitalne mikrokvalifikacije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_14",
+        "Question_Text": "Izvode li se na visokom učilištu **programi cjeloživotnog obrazovanja** uključujući programe za **stjecanje digitalnih kompetencija** ili programe različitih sadržaja u kojima se **digitalne tehnologije** koriste za učenje i poučavanje?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_15",
+        "Question_Text": "Osigurava li visoko učilište istraživačima **digitalnu opremu i programsku podršku** za izvođenje istraživačkih aktivnosti?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_16",
+        "Question_Text": "Potiče li se na visokom učilištu **primjena načela otvorene znanosti**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_17",
+        "Question_Text": "Ima li visoko učilište **usvojena pravila poštivanja autorskog prava i intelektualnog vlasništva** te provodi li **informiranje i edukaciju** nastavnika i istraživača?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_18",
+        "Question_Text": "Potiče li visoko učilište **internu i međuinstitucionalnu suradnju korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_19",
+        "Question_Text": "Jesu li **razvoj i održavanje lokalne mreže** uključeni u godišnje planove visokog učilišta s osiguranim financijskim sredstvima?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_20",
+        "Question_Text": "Jesu li **razvoj i održavanje poslužiteljske infrastrukture uključeni** je u godišnje planove visokog učilišta s osiguranim financijskim sredstvima?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_21",
+        "Question_Text": "Je li visoko učilište opremilo jednu ili više **učionica za** **istovremeno izvođenje nastave prisutnim studentima i onima online** (veliki  ekran za prikaz udaljenih polaznika, oprema za adekvatno snimanje predavača, ploče i učionice)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_22",
+        "Question_Text": "Je li na visokom učilištu **opremanje djelatnika i radnih mjesta** digitalnim tehnologijama planirano, standardizirano i adekvatno?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_23",
+        "Question_Text": "Osigurava li visoko učilište svojim korisnicima **učinkovitu i pravovremenu tehničku podršku** za korištenje digitalne infrastrukture, opreme i usluga?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_24",
+        "Question_Text": "Kako provodite zelenu transformaciju?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_25",
+        "Question_Text": "Ima li visoko učilište **sigurnosnu politiku**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_26",
+        "Question_Text": "Ima li visoko učilište **planove za upravljanje informacijskom sigurnoću** i **kontinuitetom poslovanja**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_27",
+        "Question_Text": "Provodi li visoko učilište **procjenu sigurnosnih rizika**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_28",
+        "Question_Text": "Je li visoko učilište **usklađeno** s Općom uredbom o zaštiti osobnih podataka **(GDPR)**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_29",
+        "Question_Text": "Osigurava li visoko učilište za svoje zaposlenike i studente **edukacije o kibernetičkoj sigurnosti**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_30",
+        "Question_Text": "Provodi li visoko učilište za svoje zaposlenike i studente **kampanje podizanja svijesti**, informira li i upozorava o mogućim **kibernetičkim prijetnjama**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_31",
+        "Question_Text": "Ima li visoko učilište **strategiju** upravljanja umjetnom inteligencijom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_32",
+        "Question_Text": "Koristi li visoko učilište **poslovni** **informacijski sustav** za optimizaciju poslovnih procesa, predviđanje budućih trendova i potporu strateškom upravljanju?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_33",
+        "Question_Text": "Koristi li visoko učilište **analitički sustav** za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_34",
+        "Question_Text": "Koristi li visoko učilište **sustav automatiziranog izvještavanja** o napretku studenata koji uključuje i **rano prepoznavanje** studenata koji vjerojatno neće ostvariti ishode učenja?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_35",
+        "Question_Text": "Koristi li visoko učilište **sustav za automatiziranu pomoć u pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_36",
+        "Question_Text": "Koristi li visoko učilište **sustav za automatizirani marketing** za sve skupine ključnih korisnika?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_37",
+        "Question_Text": "Koristi li visoko učilište **sustav za upravljanje odnosima s alumnima** s ciljem poticanja njihovog osobnog angažmana u mentorstvu, projektima i donacijama?",
+        "Answer": 4
+      }
+    ]
+  }
+]

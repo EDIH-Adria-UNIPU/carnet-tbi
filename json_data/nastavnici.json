@@ -1,0 +1,3058 @@
+[
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 19.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 3
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 21.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 4
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 28.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 1
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 34.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 1
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 37.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 3
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 45.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 5
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 46.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 3
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 47.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 5
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 50.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 5
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 53.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 4
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 55.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 2
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 56.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 4
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 60.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 1
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 3
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 63.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 3
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 65.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 5
+      }
+    ]
+  },
+  {
+    "Institution_ID": 20.0,
+    "Responder_ID": 66.0,
+    "Responses": [
+      {
+        "Question_ID": "Pitanje_38",
+        "Question_Text": "Ima li visoko učilište **strateški plan digitalne preobrazbe** kao zaseban dokument ili dio šire strategije?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_39",
+        "Question_Text": "**Sudjelujete li u planiranju** digitalne preobrazbe visokog učilišta?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_40",
+        "Question_Text": "Podržava li visoko učilište **eksperimentiranje i inoviranje u digitalnoj prerobrazbi**, npr. kroz interne natječaje za dodjelu resursa za digitalne projekte; nagrade za korištenje digitalne tehnologije u nastavi, istraživanju itd.?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_41",
+        "Question_Text": "Koliko učinkovito visoko učilište **digitalizira svoje poslovne procese**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_42",
+        "Question_Text": "Jeste li aktivno uključeni u **donošenje odluka vezanih uz digitalno sazrjievanje**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_43",
+        "Question_Text": "Brinete li o **digitalnoj dobrobiti studenata** i na koji način (fizičko i psihičko zdravlje)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_44",
+        "Question_Text": "Postoji li na visokom **učilištu sustav poticanja nastavnika** na primjenu digitalnih tehnologija u poučavanju?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_45",
+        "Question_Text": "Kad izvodite nastavu u predavaonicama i drugim fizičkim prostorima omogućujete li **studentima interaktivno sudjelovanje korištenjem digitalnih tehnologija,** npr. aplikacije za trenutne povratne informacije, digitalne animacije, simulacije, eksperimenti ili vježbe?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_46",
+        "Question_Text": "Jeste li otvoreni za **online komunikaciju i suradnju sa studentima** i koje mogućnosti pri tom koristite, npr. e-pošta, aplikacije za razmjenu poruka, online okruženja ili sustavi za upravljenje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_47",
+        "Question_Text": "Izrađujete li **digitalne obrazovne sadržaje** i spremate li ih u neki **organizirani sustav,** npr. repozitorij visokog učilišta ili sustav za upravljanje učenjem kao što su Loomen ili Merlin?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_48",
+        "Question_Text": "Koristite li **digitalne alate** za **vrednovanje i samovrednovanje znanja** studenata?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_49",
+        "Question_Text": "Je li na Vašim kolegijima **studentima osigurana potrebna pomoć** u korištenju **specifične programske podrške,** platforme ili digitalnih uređaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_50",
+        "Question_Text": "Osigurava li visoko učilište **planirani razvoj digitalnih kompetencija** nastavnika putem priručnika, tečajeva, radionica, konferencija (online ili uživo)?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_51",
+        "Question_Text": "Osiguravate li na svojim kolegijima **razvoj digitalnih kompetencija studenata**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_52",
+        "Question_Text": "Koristite li **digitalnu opremu i programsku podršku** za izvođenje svojih istraživačkih aktivnosti?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_53",
+        "Question_Text": "Koristite li digitalne tehnologije **u pripremi i objavi znanstvenih i stručnih radova**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_54",
+        "Question_Text": "Unosite li svoje **radove i istraživačke podatke u otvoreni repozitorij**?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_55",
+        "Question_Text": "Jeste li upoznati s **pravilima poštivanja autorskog prava i intelektualnog vlasništva** i jeste li bili informirani i educirani o toj temi?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_56",
+        "Question_Text": "Sudjelujete li u **internim i međuinstitucionalnim suradnjama korištenjem digitalnih tehnologija**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_57",
+        "Question_Text": "Sudjelujete li u **suradnji u lokalnom okruženju korištenjem digitalne tehnologije**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_58",
+        "Question_Text": "U kojoj mjeri Vam je žična i bežična mreža **dostupna u prostorima visokog učilišta?**",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_59",
+        "Question_Text": "Imate li na visokom učilištu na raspolaganju **učionicu opremljenu za istovremeno izvođenje nastave prisutnim studentima i onima online** (oprema za adekvatno snimanje predavača i veliki  ekran za prikaz udaljenih polaznika)",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_60",
+        "Question_Text": "Imate li na visokom učilištu pristup prostorijama opremljenima za **eksperimentiranje s digitalnim tehnologijama**?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_61",
+        "Question_Text": "Imate li na visokom učilištu pristup **multimedijskom studiju** za kreiranje obrazovnih sadržaja?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_62",
+        "Question_Text": "Kako biste ocijenili adekvatnost **opreme na svojem radnom mjestu i mogućnost integracije s dodatnim** osobnim uređajima (vlastitim ili dobivenima na korištenje, engl. BYOD )?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_63",
+        "Question_Text": "Kako koristite **obrazovne informacijske sustave** za održavanje i administriranje nastave?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_64",
+        "Question_Text": "Kako ocjenjujete **učinkovitost tehničke podrške** koju vam visoko učilište osigurava za korištenje digitalne infrastrukture, opreme i usluga potrebnih za poučavanje, istraživanje i suradnju u akademskoj zajednici?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_65",
+        "Question_Text": "Imate li mogućnost **jedinstvene prijave za pristup digitalnim uslugama** na visokom učilištu (engl. single sign on, SSO)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_66",
+        "Question_Text": "Pohađate li **edukacije** **o kibernetičkoj sigurnosti** na visokom učilištu?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_67",
+        "Question_Text": "Ima li visoko učilište procedure **prijave** i **obrade kibernetičkih incidenata** kao što su npr. lažni mailovi, krađe identiteta, internetske prevare?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_68",
+        "Question_Text": "Jeste li pohađali **tečajeve o primjeni alata umjetne inteligencije**?",
+        "Answer": 5
+      },
+      {
+        "Question_ID": "Pitanje_69",
+        "Question_Text": "Koristite li **poslovni informacijski sustav** u osigiravanju resursa za svoju nastavu i istraživanje (npr. za putne naloge, plaćanje računa, nabavu opreme, planiranje projekata)?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_70",
+        "Question_Text": "Koristite li **analitički** sustav za prikupljanje, analizu, organizaciju i pohranu složenih **skupova podataka** za svoju nastavu i istraživanje?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_71",
+        "Question_Text": "Jeste li u **sadržaj svojih kolegija uvrstili primjenu umjetne inteligencije** u svom znanstvenom području?",
+        "Answer": 4
+      },
+      {
+        "Question_ID": "Pitanje_72",
+        "Question_Text": "Koristite li za podršku studentima na svojim kolegijima **virtualnog asistenta** kao što su ChatGPT ili drugi sustav razvijen s tom specifičnom svrhom?",
+        "Answer": 2
+      },
+      {
+        "Question_ID": "Pitanje_73",
+        "Question_Text": "Koristite li **sustav automatiziranog izvještavanja** o napretku vaših studenata koji uključuje i **rano prepoznavanje** studenata koji neće ostvariti ishode učenja?",
+        "Answer": 3
+      },
+      {
+        "Question_ID": "Pitanje_74",
+        "Question_Text": "Koristite li sustav za automatiziranu pomoć u **pisanju znanstvenih radova**, usklađen s prihvaćenim etičkim normama?",
+        "Answer": 4
+      }
+    ]
+  }
+]
