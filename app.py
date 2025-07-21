@@ -40,9 +40,8 @@ for category in categories:
 
 def main():
     st.image("assets/carnet.jpg", width=300)
-    st.title("Savjetnik za digitalnu transformaciju visokih učilišta u RH")
-    st.write(
-        "Analiza strategije razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026."
+    st.markdown(
+        "<h3>Savjetnik za digitalnu transformaciju VU u RH</h3>", unsafe_allow_html=True
     )
     st.write(
         "Analiza je temeljena na dokumentu: [Strategija razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026.]"
@@ -67,22 +66,20 @@ def main():
         status_text = st.empty()
 
         try:
-            # Step 1: Extract PDF text
-            status_text.text("Korak 1/3: Učitavanje PDF dokumenta...")
-            progress_bar.progress(33)
+            # Extract PDF text
+            status_text.text("Korak 1/2: Učitavanje PDF dokumenta...")
+            progress_bar.progress(50)
             pdf_path = Path("assets") / "strategija_razvoja.pdf"
             pdf_text = extract_text_from_pdf(pdf_path)
 
-            # Step 2: Load averages and question texts
-            status_text.text("Korak 2/3: Priprema analize...")
-            progress_bar.progress(66)
+            # Load averages and question texts
             averages = {}
             for category in categories:
                 avg_path = Path("averages") / f"{category}_data.json"
                 with open(avg_path, "r", encoding="utf-8") as f:
                     averages[category] = json.load(f)
 
-            # Step 3: Prepare prompt for OpenAI
+            # Prepare prompt for OpenAI
             prompt = f"Strategija razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026:\n{pdf_text}\n\n"
             prompt += "Prosječne ocjene iz upitnika:\n"
             for category, data in averages.items():
@@ -94,8 +91,8 @@ def main():
 
             prompt += TASK_INSTRUCTIONS
 
-            # Step 4: Generate analysis
-            status_text.text("Korak 3/3: Generiranje analize...")
+            # Generate analysis
+            status_text.text("Korak 2/2: Generiranje analize...")
             client = OpenAI()
 
             response = client.responses.create(
