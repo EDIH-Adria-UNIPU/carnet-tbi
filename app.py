@@ -4,6 +4,7 @@ from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
+from streamlit_pdf_viewer import pdf_viewer
 
 from utils import calculate_averages, extract_text_from_pdf
 
@@ -36,6 +37,20 @@ def main():
     )
     st.write(
         "Analiza je temeljena na dokumentu: [Strategija razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026.]"
+    )
+
+    # PDF viewer section
+    st.subheader("Pregled dokumenta")
+    pdf_path = Path("assets") / "strategija_razvoja.pdf"
+
+    # Display PDF with custom options
+    pdf_viewer(
+        str(pdf_path),
+        width=700,
+        height=600,
+        zoom_level="auto",
+        viewer_align="center",
+        show_page_separator=True,
     )
 
     if st.button("Pokreni analizu"):
