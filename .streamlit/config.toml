@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor="#4CAF50"  # Green color for accents
+backgroundColor="#FFFFFF"  # White background
+secondaryBackgroundColor="#F0F0F0"  # Light grey for slight contrast
+textColor="#333333"  # Dark text color
+font="sans serif"
