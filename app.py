@@ -37,6 +37,7 @@ VAŽNO:
 - Nemojte postavljati pitanja niti nuditi dodatne usluge.
 - Odgovor mora biti jasan, strukturiran i prilagođen korištenju u formalnom izvještaju.
 - Koristite uvid iz upitnika i dostupnih dokumenata za formiranje zaključaka.
+- Ne koristiti placeholder dijelove teksta.
 """
 
 
