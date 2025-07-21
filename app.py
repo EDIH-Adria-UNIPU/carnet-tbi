@@ -16,6 +16,15 @@ if not API_KEY:
     st.error("API key not found.")
     st.stop()
 
+TASK_INSTRUCTIONS = """Na temelju danih informacija, napišite detaljnu analizu i preporuke za digitalnu transformaciju visokog učilišta.
+
+VAŽNO: Odgovorite u obliku strukturiranog izvještaja s naslovovima i podnaslovovima. Ne postavljajte pitanja na kraju niti nudite dodatne usluge. Završite izvještaj konkretnim preporukama.
+
+Struktura izvještaja:
+1. SAŽETAK ANALIZE
+2. KLJUČNI NALAZI
+3. PREPORUKE ZA DIGITALNU TRANSFORMACIJU
+4. ZAKLJUČAK"""
 
 # Process all categories and save results
 categories = ["it_strucnjaci", "nastavnici", "studenti", "uprava"]
@@ -54,19 +63,26 @@ def main():
     )
 
     if st.button("Pokreni analizu"):
-        with st.spinner("Analiza u tijeku..."):
-            # Extract PDF text
+        progress_bar = st.progress(0)
+        status_text = st.empty()
+
+        try:
+            # Step 1: Extract PDF text
+            status_text.text("Korak 1/3: Učitavanje PDF dokumenta...")
+            progress_bar.progress(33)
             pdf_path = Path("assets") / "strategija_razvoja.pdf"
             pdf_text = extract_text_from_pdf(pdf_path)
 
-            # Load averages and question texts
+            # Step 2: Load averages and question texts
+            status_text.text("Korak 2/3: Priprema analize...")
+            progress_bar.progress(66)
             averages = {}
             for category in categories:
                 avg_path = Path("averages") / f"{category}_data.json"
                 with open(avg_path, "r", encoding="utf-8") as f:
                     averages[category] = json.load(f)
 
-            # Prepare prompt for OpenAI
+            # Step 3: Prepare prompt for OpenAI
             prompt = f"Strategija razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026:\n{pdf_text}\n\n"
             prompt += "Prosječne ocjene iz upitnika:\n"
             for category, data in averages.items():
@@ -75,19 +91,32 @@ def main():
                     question_text = data["question_texts"][question_id]
                     prompt += f"{question_id}: {question_text} - Prosječna ocjena: {average:.2f}\n"
                 prompt += "\n"
-            prompt += "Na temelju danih informacija, dajte preporuke za digitalnu transformaciju visokog učilišta."
 
+            prompt += TASK_INSTRUCTIONS
+
+            # Step 4: Generate analysis
+            status_text.text("Korak 3/3: Generiranje analize...")
             client = OpenAI()
 
-            try:
-                response = client.responses.create(
-                    model="gpt-4.1-nano",
-                    input=prompt,
-                    temperature=0.5,
-                )
-                st.write(response.output_text)
-            except Exception as e:
-                st.error(f"Došlo je do greške pri analizi: {str(e)}")
+            response = client.responses.create(
+                model="gpt-4.1-nano",
+                input=prompt,
+                temperature=0.5,
+            )
+
+            progress_bar.progress(100)
+            status_text.text("Analiza završena!")
+
+            # Display results
+            st.subheader("Izvještaj o digitalnoj transformaciji")
+            st.write(response.output_text)
+
+        except Exception as e:
+            st.error(f"Došlo je do greške pri analizi: {str(e)}")
+        finally:
+            # Clean up progress indicators
+            progress_bar.empty()
+            status_text.empty()
 
 
 if __name__ == "__main__":
