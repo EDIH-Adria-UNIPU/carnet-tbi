@@ -125,6 +125,11 @@ def main():
         value=True,
     )
 
+    user_context = st.text_area(
+        "Dodatni kontekst",
+        help="Unesite dodatne informacije koje će biti dodane u analizu.",
+    )
+
     if st.button("Pokreni analizu"):
         progress_bar = st.progress(0)
         status_text = st.empty()
@@ -163,6 +168,9 @@ def main():
                     question_text = data["question_texts"][question_id]
                     prompt += f"{question_id}: {question_text} - Prosječna ocjena: {average:.2f}\n"
                 prompt += "\n"
+
+            if user_context.strip():
+                prompt += f"Kontekst korisnika:\n{user_context.strip()}\n\n"
 
             prompt += TASK_INSTRUCTIONS
 
