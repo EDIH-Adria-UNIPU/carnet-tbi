@@ -120,18 +120,27 @@ def main():
         show_page_separator=True,
     )
 
+    include_pdf = st.toggle(
+        "Uključi PDF sadržaj u analizu",
+        value=True,
+    )
+
     if st.button("Pokreni analizu"):
         progress_bar = st.progress(0)
         status_text = st.empty()
 
         try:
-            # Extract PDF text
-            status_text.text("Korak 1/2: Čitanje PDF dokumenta...")
-            progress_bar.progress(50)
-            pdf_path = Path("assets") / "strategija_razvoja.pdf"
-            pdf_text = extract_text_from_pdf(pdf_path)
-
-            print("PDF text extracted successfully.")
+            # Extract PDF text if requested
+            if include_pdf:
+                status_text.text("Korak 1/2: Čitanje PDF dokumenta...")
+                progress_bar.progress(50)
+                pdf_path = Path("assets") / "strategija_razvoja.pdf"
+                pdf_text = extract_text_from_pdf(pdf_path)
+                print("PDF text extracted successfully.")
+            else:
+                status_text.text("Korak 1/2: Preskakanje PDF dokumenta...")
+                progress_bar.progress(50)
+                pdf_text = ""
 
             # Load averages and question texts
             averages = {}
@@ -143,7 +152,9 @@ def main():
             print("Averages loaded successfully.")
 
             # Prepare prompt for OpenAI
-            prompt = f"Strategija razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026:\n{pdf_text}\n\n"
+            prompt = ""
+            if include_pdf:
+                prompt += f"Strategija razvoja Sveučilišta Jurja Dobrile u Puli 2021. - 2026:\n{pdf_text}\n\n"
             prompt += "Prosječne ocjene iz upitnika:\n"
             for category, data in averages.items():
                 print(f"Processing category: {category}")
