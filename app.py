@@ -143,6 +143,7 @@ def main():
                 pdf_text = extract_text_from_pdf(pdf_path)
                 print("PDF text extracted successfully.")
             else:
+                print("Skipping PDF extraction.")
                 status_text.text("Korak 1/2: Preskakanje PDF dokumenta...")
                 progress_bar.progress(50)
                 pdf_text = ""
@@ -170,6 +171,7 @@ def main():
                 prompt += "\n"
 
             if user_context.strip():
+                print("Adding user context to prompt: ", user_context.strip())
                 prompt += f"Kontekst korisnika:\n{user_context.strip()}\n\n"
 
             prompt += TASK_INSTRUCTIONS
