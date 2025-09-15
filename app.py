@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+import pandas as pd
 import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -16,6 +17,54 @@ MODEL = "gpt-5-mini"
 if not API_KEY:
     st.error("API key not found.")
     st.stop()
+
+
+def display_survey_data():
+    """Display survey averages in an organized format"""
+    st.markdown("### 📊 Pregled prosječnih ocjena iz upitnika")
+
+    categories = {
+        "it_strucnjaci": "IT stručnjaci",
+        "nastavnici": "Nastavnici",
+        "studenti": "Studenti",
+        "uprava": "Uprava"
+    }
+
+    # Create tabs for each category
+    tabs = st.tabs(list(categories.values()))
+
+    for i, (category_key, category_name) in enumerate(categories.items()):
+        with tabs[i]:
+            avg_path = Path("averages") / f"{category_key}_data.json"
+            if avg_path.exists():
+                with open(avg_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+
+                # Create DataFrame for better display
+                questions_data = []
+                for question_id, average in data["averages"].items():
+                    question_text = data["question_texts"].get(question_id, "N/A")
+                    questions_data.append({
+                        "Pitanje ID": question_id,
+                        "Tekst pitanja": question_text,
+                        "Prosječna ocjena": f"{average:.2f}"
+                    })
+
+                df = pd.DataFrame(questions_data)
+                st.dataframe(df, use_container_width=True, hide_index=True)
+
+                # Show summary statistics
+                averages_list = list(data["averages"].values())
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Ukupno pitanja", len(averages_list))
+                with col2:
+                    st.metric("Prosječna ocjena", f"{sum(averages_list)/len(averages_list):.2f}")
+                with col3:
+                    st.metric("Najbolja ocjena", f"{max(averages_list):.2f}")
+            else:
+                st.error(f"Nema dostupnih podataka za {category_name}")
+
 
 def get_task_instructions(include_helsinki, include_tartu):
     """Generate task instructions based on which documents are included"""
@@ -262,6 +311,9 @@ def main():
         show_page_separator=True,
     )
 
+    # Display survey data
+    display_survey_data()
+
     # Document inclusion toggles
     include_pdf = st.toggle(
         "Uključi UNIPU strategiju razvoja u analizu",
@@ -285,7 +337,9 @@ def main():
 
     # Chat input
     if not st.session_state.messages:
-        placeholder = 'Napišite "Pokreni analizu" za početak ili unesite dodatni kontekst...'
+        placeholder = (
+            'Napišite "Pokreni analizu" za početak ili unesite dodatni kontekst...'
+        )
     else:
         placeholder = "Postavite dodatno pitanje..."
 
@@ -312,9 +366,7 @@ def main():
                         include_tartu,
                     )
                 )
-                print(
-                    f"Stream completed. Response length: {len(response) if response else 0}"
-                )
+                print("Stream completed.")
 
                 # If no response was generated, fall back
                 if not response:
