@@ -17,7 +17,9 @@ if not API_KEY:
     st.error("API key not found.")
     st.stop()
 
-TASK_INSTRUCTIONS = """Visoko učilište: Sveučilište Jurja Dobrile u Puli (UNIPU)
+def get_task_instructions(include_helsinki, include_tartu):
+    """Generate task instructions based on which documents are included"""
+    base_instructions = """Visoko učilište: Sveučilište Jurja Dobrile u Puli (UNIPU)
 
 Na temelju ispunjenih upitnika i dostupnih informacija o visokom učilištu, napišite strukturirani izvještaj analize i preporuka za digitalnu transformaciju tog učilišta.
 
@@ -33,18 +35,34 @@ Izvještaj mora uključivati:
 3. PREPORUKE ZA DIGITALNU TRANSFORMACIJU — Konkretne preporuke za svako područje, usklađene s nalazima i procjenom trenutnog stanja.
 4. ZAKLJUČAK — Završna ocjena stanja i preporuka o prioritetima za daljnji razvoj.
 
-VAŽNO: 
+VAŽNO:
 - Nemojte postavljati pitanja niti nuditi dodatne usluge.
 - Odgovor mora biti jasan, strukturiran i prilagođen korištenju u formalnom izvještaju.
 - Koristite uvid iz upitnika i dostupnih dokumenata za formiranje zaključaka.
 - Ne koristiti placeholder dijelove teksta.
-- Koristite Markdown formatiranje za bolju čitljivost: **podebljani tekst** za važne dijelove, ## za naslove sekcija, - za liste.
-"""
+- Koristite Markdown formatiranje za bolju čitljivost: **podebljani tekst** za važne dijelove, ## za naslove sekcija, - za liste."""
+
+    # Add comparative analysis instructions if other university strategies are included
+    if include_helsinki or include_tartu:
+        comparative_instructions = """
+
+DODATNE UPUTE ZA KOMPARATIVNU ANALIZU:
+- Analizirajte i usporedite strateške pristupe UNIPU-a s pristupima drugih sveučilišta.
+- Identificirajte najbolje prakse iz strategija drugih sveučilišta koje bi mogle biti primjenjive na UNIPU.
+- U preporukama eksplicitno navedite primjere iz strategija drugih sveučilišta kada su relevantni.
+- Koristite fraze poput "Prema iskustvu Sveučilišta Helsinki..." ili "Sveučilište Tartu je uspješno implementiralo..." kada citirate najbolje prakse.
+- Fokusirajte se na praktične i izvodljive prijedloge temeljene na dokazanim uspješnim pristupima."""
+
+        base_instructions += comparative_instructions
+
+    return base_instructions
 
 
-def build_analysis_prompt(user_context, include_pdf):
+def build_analysis_prompt(user_context, include_pdf, include_helsinki, include_tartu):
     """Build the full prompt for the initial analysis"""
-    print(f"Building analysis prompt. Include PDF: {include_pdf}")
+    print(
+        f"Building analysis prompt. Include PDF: {include_pdf}, Include Helsinki: {include_helsinki}, Include Tartu: {include_tartu}"
+    )
     print(f"User context: {user_context}")
 
     # Process all categories and get averages
@@ -74,6 +92,38 @@ def build_analysis_prompt(user_context, include_pdf):
     else:
         print("Skipping PDF content")
 
+    # Add Helsinki documents if requested
+    if include_helsinki:
+        print("Including Helsinki documents...")
+        helsinki_docs = [
+            ("helsinki_strategy.pdf", "Helsinki Strategy Document"),
+            ("helsinki_it2030.pdf", "Helsinki IT2030 Document"),
+        ]
+        for doc_file, doc_title in helsinki_docs:
+            doc_path = Path("assets") / "Helsinki" / doc_file
+            if doc_path.exists():
+                doc_text = extract_text_from_pdf(doc_path)
+                prompt += f"{doc_title}:\n{doc_text}\n\n"
+                print(f"Added {doc_title}")
+            else:
+                print(f"Warning: {doc_path} not found")
+
+    # Add Tartu documents if requested
+    if include_tartu:
+        print("Including Tartu documents...")
+        tartu_docs = [
+            ("tartu_strategy.pdf", "Tartu Strategy Document"),
+            ("tartu_action_plan.pdf", "Tartu Action Plan Document"),
+        ]
+        for doc_file, doc_title in tartu_docs:
+            doc_path = Path("assets") / "Tartu" / doc_file
+            if doc_path.exists():
+                doc_text = extract_text_from_pdf(doc_path)
+                prompt += f"{doc_title}:\n{doc_text}\n\n"
+                print(f"Added {doc_title}")
+            else:
+                print(f"Warning: {doc_path} not found")
+
     # Add survey averages
     prompt += "Prosječne ocjene iz upitnika:\n"
 
@@ -94,16 +144,19 @@ def build_analysis_prompt(user_context, include_pdf):
         prompt += "\n"
 
     # Add user context
-    if user_context.strip():
+    if user_context and user_context.strip():
         print(f"Adding user context: {user_context.strip()}")
         prompt += f"Kontekst korisnika:\n{user_context.strip()}\n\n"
+    else:
+        print("No user context provided - proceeding with standard analysis")
 
-    prompt += TASK_INSTRUCTIONS
+    task_instructions = get_task_instructions(include_helsinki, include_tartu)
+    prompt += task_instructions
     print(f"Final prompt built with length: {len(prompt)} characters")
     return prompt
 
 
-def stream_openai_response(messages, include_pdf):
+def stream_openai_response(messages, include_pdf, include_helsinki, include_tartu):
     """Generate and stream response from OpenAI API"""
     print(f"Starting chat response generation. Messages count: {len(messages)}")
     client = OpenAI()
@@ -115,12 +168,14 @@ def stream_openai_response(messages, include_pdf):
     if len(messages) == 1:
         print("First message - building full analysis prompt")
 
-        # Show document reading indicator if PDF is included
-        if include_pdf:
+        # Show document reading indicator if any documents are included
+        if include_pdf or include_helsinki or include_tartu:
             status_placeholder.markdown("*Čitam dokumente...*")
 
         user_context = messages[0]["content"]
-        full_prompt = build_analysis_prompt(user_context, include_pdf)
+        full_prompt = build_analysis_prompt(
+            user_context, include_pdf, include_helsinki, include_tartu
+        )
         print(f"Full prompt length: {len(full_prompt)} characters")
 
         # Use single string input for responses API
@@ -207,10 +262,20 @@ def main():
         show_page_separator=True,
     )
 
-    # PDF inclusion toggle
+    # Document inclusion toggles
     include_pdf = st.toggle(
         "Uključi UNIPU strategiju razvoja u analizu",
         value=True,
+    )
+
+    include_helsinki = st.toggle(
+        "Uključi strateške dokumente - Sveučilište Helsinki (Finska)",
+        value=False,
+    )
+
+    include_tartu = st.toggle(
+        "Uključi strateške dokumente - Sveučilište Tartu (Estonija)",
+        value=False,
     )
 
     # Display chat messages from history
@@ -220,7 +285,7 @@ def main():
 
     # Chat input
     if not st.session_state.messages:
-        placeholder = "Postavite pitanje ili unesite dodatni kontekst za analizu..."
+        placeholder = 'Napišite "Pokreni analizu" za početak ili unesite dodatni kontekst...'
     else:
         placeholder = "Postavite dodatno pitanje..."
 
@@ -228,9 +293,10 @@ def main():
         # Add user message to chat history
         st.session_state.messages.append({"role": "user", "content": prompt})
 
-        # Display user message
-        with st.chat_message("user"):
-            st.markdown(prompt)
+        # Display user message (only if not empty)
+        if prompt.strip():
+            with st.chat_message("user"):
+                st.markdown(prompt)
 
         # Display assistant response in chat message container
         with st.chat_message("assistant"):
@@ -239,7 +305,12 @@ def main():
 
                 # Use st.write_stream with our custom generator
                 response = st.write_stream(
-                    stream_openai_response(st.session_state.messages, include_pdf)
+                    stream_openai_response(
+                        st.session_state.messages,
+                        include_pdf,
+                        include_helsinki,
+                        include_tartu,
+                    )
                 )
                 print(
                     f"Stream completed. Response length: {len(response) if response else 0}"
