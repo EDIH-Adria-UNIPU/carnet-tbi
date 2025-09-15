@@ -13,7 +13,7 @@ from utils import calculate_averages, extract_text_from_pdf
 load_dotenv()
 
 API_KEY = st.secrets.get("OPENAI_API_KEY")
-MODEL = "gpt-4.1-mini"
+MODEL = "gpt-5"
 
 if not API_KEY:
     st.error("API key not found.")
@@ -185,6 +185,7 @@ def main():
             response = client.responses.create(
                 model=MODEL,
                 input=prompt,
+                reasoning={"effort": "low"},
             )
 
             progress_bar.progress(100)
