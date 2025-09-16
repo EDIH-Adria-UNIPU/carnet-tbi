@@ -1,5 +1,4 @@
 """Utilities for preparing the analysis prompt sent to the OpenAI API."""
-from __future__ import annotations
 
 import json
 from pathlib import Path

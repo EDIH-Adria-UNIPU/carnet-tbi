@@ -1,5 +1,4 @@
 """Streamlit UI helpers for presenting survey results."""
-from __future__ import annotations
 
 import json
 from pathlib import Path
