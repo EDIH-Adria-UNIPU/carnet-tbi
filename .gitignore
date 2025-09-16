@@ -4,3 +4,5 @@
 .streamlit/secrets.toml
 
 averages/
+
+__pycache__/
