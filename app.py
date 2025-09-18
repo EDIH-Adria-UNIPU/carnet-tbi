@@ -7,6 +7,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 from prompt_builder import build_analysis_prompt
 from survey_ui import display_survey_data
+from utils import extract_text_from_pdf
 
 load_dotenv()
 
@@ -18,7 +19,13 @@ if not API_KEY:
     st.stop()
 
 
-def stream_openai_response(messages, include_pdf, include_helsinki, include_tartu):
+def stream_openai_response(
+    messages,
+    include_pdf,
+    include_helsinki,
+    include_tartu,
+    uploaded_documents=None,
+):
     """Generate and stream response from OpenAI API."""
     print(f"Starting chat response generation. Messages count: {len(messages)}")
     client = OpenAI()
@@ -33,7 +40,11 @@ def stream_openai_response(messages, include_pdf, include_helsinki, include_tart
 
         user_context = messages[0]["content"]
         full_prompt = build_analysis_prompt(
-            user_context, include_pdf, include_helsinki, include_tartu
+            user_context,
+            include_pdf,
+            include_helsinki,
+            include_tartu,
+            uploaded_documents,
         )
         print(f"Full prompt length: {len(full_prompt)} characters")
         prompt_input = full_prompt
@@ -105,6 +116,43 @@ def main():
 
     display_survey_data()
 
+    uploaded_files = st.file_uploader(
+        "Dodajte vlastite PDF dokumente za kontekst analize",
+        type=["pdf"],
+        accept_multiple_files=True,
+        help="Sadržaj datoteka bit će dodan u prompt kao korisnički učitani dokument.",
+    )
+
+    user_uploaded_documents: list[tuple[str, str]] = []
+    upload_errors: list[str] = []
+
+    if uploaded_files:
+        for uploaded_file in uploaded_files:
+            try:
+                text = extract_text_from_pdf(uploaded_file)
+            except Exception as exc:  # pragma: no cover - streamlit runtime feedback
+                error_message = f"Ne mogu pročitati {uploaded_file.name}: {exc}"
+                upload_errors.append(error_message)
+                print(error_message)
+                continue
+
+            if text and text.strip():
+                user_uploaded_documents.append((uploaded_file.name, text))
+            else:
+                warning_message = f"Dokument {uploaded_file.name} ne sadrži čitljiv tekst."
+                upload_errors.append(warning_message)
+                print(warning_message)
+
+    if user_uploaded_documents:
+        st.success(
+            "Korisnički PDF dokumenti će biti uključeni u analizu: "
+            + ", ".join(doc[0] for doc in user_uploaded_documents)
+        )
+
+    if upload_errors:
+        for message in upload_errors:
+            st.warning(message)
+
     include_pdf = st.toggle(
         "Uključi UNIPU strategiju razvoja u analizu",
         value=True,
@@ -147,6 +195,7 @@ def main():
                         include_pdf,
                         include_helsinki,
                         include_tartu,
+                        user_uploaded_documents,
                     )
                 )
                 print("Stream completed.")

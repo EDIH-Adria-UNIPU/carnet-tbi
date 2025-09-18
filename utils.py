@@ -1,4 +1,5 @@
 import json
+from typing import BinaryIO, Union
 
 import pdfplumber
 
@@ -33,8 +34,19 @@ def calculate_averages(json_path):
 
 
 # Function to extract text from PDF
-def extract_text_from_pdf(pdf_path):
-    with pdfplumber.open(pdf_path) as pdf:
+def extract_text_from_pdf(pdf_source: Union[str, "Path", BinaryIO]):
+    """Return extracted text from a PDF path or binary stream."""
+
+    # Local import to avoid circular dependency when typing Path
+    from pathlib import Path
+
+    if isinstance(pdf_source, (str, Path)):
+        open_target = pdf_source
+    else:
+        pdf_source.seek(0)
+        open_target = pdf_source
+
+    with pdfplumber.open(open_target) as pdf:
         text = ""
         for page in pdf.pages:
             text += (
