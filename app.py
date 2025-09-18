@@ -12,7 +12,7 @@ from utils import extract_text_from_pdf
 load_dotenv()
 
 API_KEY = st.secrets.get("OPENAI_API_KEY")
-MODEL = "gpt-5-mini"
+MODEL = "gpt-5"
 
 if not API_KEY:
     st.error("API key not found.")
@@ -139,7 +139,9 @@ def main():
             if text and text.strip():
                 user_uploaded_documents.append((uploaded_file.name, text))
             else:
-                warning_message = f"Dokument {uploaded_file.name} ne sadrži čitljiv tekst."
+                warning_message = (
+                    f"Dokument {uploaded_file.name} ne sadrži čitljiv tekst."
+                )
                 upload_errors.append(warning_message)
                 print(warning_message)
 

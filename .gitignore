@@ -6,3 +6,5 @@
 averages/
 
 __pycache__/
+
+*.pyc

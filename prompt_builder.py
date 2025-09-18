@@ -38,10 +38,10 @@ Izvještaj mora uključivati:
 4. ZAKLJUČAK — Završna ocjena stanja i preporuka o prioritetima za daljnji razvoj.
 
 VAŽNO:
+- U slučaju da je korisnik pružio dodatne upute ili kontekst, prati upute korisnika.
+- Nemoj koristiti placeholdere.
 - Nemojte postavljati pitanja niti nuditi dodatne usluge.
 - Odgovor mora biti jasan, strukturiran i prilagođen korištenju u formalnom izvještaju.
-- Koristite uvid iz upitnika i dostupnih dokumenata za formiranje zaključaka.
-- Ne koristiti placeholder dijelove teksta.
 - Koristite Markdown formatiranje za bolju čitljivost: **podebljani tekst** za važne dijelove, ## za naslove sekcija, - za liste."""
 
     if include_helsinki or include_tartu:
@@ -89,7 +89,9 @@ def _append_document_texts(prompt: str, documents: list[tuple[str, str]]) -> str
     return prompt
 
 
-def _append_nested_document_texts(prompt: str, documents: list[tuple[str, str]], subfolder: str) -> str:
+def _append_nested_document_texts(
+    prompt: str, documents: list[tuple[str, str]], subfolder: str
+) -> str:
     """Helper for Helsinki/Tartu docs that live inside a subfolder."""
     resolved = []
     for filename, title in documents:
@@ -138,6 +140,9 @@ def build_analysis_prompt(
             if not trimmed_text:
                 print(f"Skipping empty user document: {filename}")
                 continue
+            print(
+                f"Adding user document: {filename} with {len(trimmed_text)} characters"
+            )
             prompt += f"[USER PDF] {filename}:\n{trimmed_text}\n\n"
 
     if include_helsinki:
@@ -163,7 +168,7 @@ def build_analysis_prompt(
     if user_context and user_context.strip():
         context = user_context.strip()
         print(f"Adding user context: {context}")
-        prompt += f"Kontekst korisnika:\n{context}\n\n"
+        prompt += f"Kontekst/upute korisnika:\n{context}\n\n"
     else:
         print("No user context provided - proceeding with standard analysis")
 
