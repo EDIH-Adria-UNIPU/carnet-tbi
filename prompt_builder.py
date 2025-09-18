@@ -2,7 +2,7 @@
 
 import json
 from pathlib import Path
-from typing import Dict
+from typing import Dict, List, Tuple
 
 from utils import calculate_averages, extract_text_from_pdf
 
@@ -102,6 +102,7 @@ def build_analysis_prompt(
     include_pdf: bool,
     include_helsinki: bool,
     include_tartu: bool,
+    uploaded_documents: List[Tuple[str, str]] | None = None,
 ) -> str:
     """Compose the full prompt for the initial analysis call."""
     print(
@@ -115,6 +116,8 @@ def build_analysis_prompt(
 
     prompt = ""
 
+    user_docs = uploaded_documents or []
+
     if include_pdf:
         print("Including PDF content...")
         pdf_path = Path("assets") / "strategija_razvoja.pdf"
@@ -126,6 +129,16 @@ def build_analysis_prompt(
         print("PDF content added successfully")
     else:
         print("Skipping PDF content")
+
+    if user_docs:
+        print(f"Including {len(user_docs)} user-uploaded documents")
+        prompt += "Korisnički učitani dokumenti (označeno kao [USER PDF]):\n"
+        for filename, text in user_docs:
+            trimmed_text = text.strip()
+            if not trimmed_text:
+                print(f"Skipping empty user document: {filename}")
+                continue
+            prompt += f"[USER PDF] {filename}:\n{trimmed_text}\n\n"
 
     if include_helsinki:
         print("Including Helsinki documents...")
