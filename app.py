@@ -146,38 +146,14 @@ def main():
         value=False,
     )
 
-    for message in st.session_state.messages:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+    chat_container = st.container()
+    with chat_container:
+        for message in st.session_state.messages:
+            with st.chat_message(message["role"]):
+                st.markdown(message["content"])
 
-    if not st.session_state.messages:
-        placeholder = (
-            'Napišite "Pokreni analizu" za početak ili unesite dodatni kontekst...'
-        )
-    else:
-        placeholder = "Postavite dodatno pitanje..."
-
-    chat_controls = st.container()
-    with chat_controls:
-        upload_col, input_col = st.columns([1, 5], vertical_alignment="bottom")
-        with upload_col:
-            with st.popover("📎 Dodaj PDF", use_container_width=True):
-                st.markdown("#### Dodajte PDF dokumente")
-                st.write(
-                    "Sadržaj datoteka bit će dodan u prompt kao korisnički učitani dokument."
-                )
-                st.file_uploader(
-                    "Dodajte vlastite PDF dokumente za kontekst analize",
-                    type=["pdf"],
-                    accept_multiple_files=True,
-                    key="user_pdf_uploader",
-                    label_visibility="collapsed",
-                )
-        with input_col:
-            prompt = st.chat_input(placeholder, key="chat_prompt")
-
+    # Handle file uploads first
     upload_errors: list[str] = []
-
     uploaded_files = st.session_state.get("user_pdf_uploader")
     current_uploaded_names: set[str] = set()
 
@@ -216,6 +192,18 @@ def main():
 
     user_uploaded_documents = list(st.session_state.uploaded_documents.items())
 
+    # Chat input placeholder
+    if not st.session_state.messages:
+        placeholder = (
+            'Napišite "Pokreni analizu" za početak ili unesite dodatni kontekst...'
+        )
+    else:
+        placeholder = "Postavite dodatno pitanje..."
+
+    st.markdown("<div style='margin-top: 2rem;'></div>", unsafe_allow_html=True)
+
+    # Chat controls at the bottom
+    chat_controls = st.container()
     with chat_controls:
         if user_uploaded_documents:
             st.success(
@@ -227,14 +215,31 @@ def main():
             for message in upload_errors:
                 st.warning(message)
 
+        upload_col, input_col = st.columns([1, 5], vertical_alignment="bottom")
+        with upload_col:
+            with st.popover("📄", use_container_width=True):
+                st.markdown("#### Dodajte PDF dokumente")
+                st.write(
+                    "Sadržaj datoteka bit će dodan u prompt kao korisnički učitani dokument."
+                )
+                st.file_uploader(
+                    "Dodajte vlastite PDF dokumente za kontekst analize",
+                    type=["pdf"],
+                    accept_multiple_files=True,
+                    key="user_pdf_uploader",
+                    label_visibility="collapsed",
+                )
+        with input_col:
+            prompt = st.chat_input(placeholder, key="chat_prompt")
+
     if prompt:
         st.session_state.messages.append({"role": "user", "content": prompt})
 
         if prompt.strip():
-            with st.chat_message("user"):
+            with chat_container.chat_message("user"):
                 st.markdown(prompt)
 
-        with st.chat_message("assistant"):
+        with chat_container.chat_message("assistant"):
             try:
                 print("Getting OpenAI stream...")
                 response = st.write_stream(

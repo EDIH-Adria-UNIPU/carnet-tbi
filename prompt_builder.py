@@ -42,7 +42,8 @@ VAŽNO:
 - Nemoj koristiti placeholdere.
 - Nemojte postavljati pitanja niti nuditi dodatne usluge.
 - Odgovor mora biti jasan, strukturiran i prilagođen korištenju u formalnom izvještaju.
-- Koristite Markdown formatiranje za bolju čitljivost: **podebljani tekst** za važne dijelove, ## za naslove sekcija, - za liste."""
+- Koristite Markdown formatiranje za bolju čitljivost: **podebljani tekst** za važne dijelove, ## za naslove sekcija, - za liste.
+- Prilikom korištenja skraćenica, prvo navedi puni naziv, a zatim skraćenicu u zagradama, npr. Sveučilište Jurja Dobrile u Puli (UNIPU)."""
 
     if include_helsinki or include_tartu:
         base_instructions += """
