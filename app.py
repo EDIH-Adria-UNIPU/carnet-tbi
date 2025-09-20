@@ -60,6 +60,19 @@ def stream_openai_response(
 - Pitajte korisnika: "Želite li da napravim novu analizu i preporuke na temelju ovih novih informacija?"
 - Koristite Markdown formatiranje za bolju čitljivost"""
 
+        if uploaded_documents:
+            conversation += "\n\nDostupni korisnički PDF dokumenti za kontekst:\n"
+            for filename, text in uploaded_documents:
+                trimmed_text = text.strip()
+                if not trimmed_text:
+                    print(f"Skipping empty user document in follow-up: {filename}")
+                    continue
+                print(
+                    "Adding user document to follow-up conversation: "
+                    f"{filename} with {len(trimmed_text)} characters"
+                )
+                conversation += f"[USER PDF] {filename}:\n{trimmed_text}\n\n"
+
         prompt_input = conversation
 
     print(f"Using model: {MODEL}")
@@ -98,6 +111,8 @@ def main():
         st.session_state.messages = []
     if "analysis_complete" not in st.session_state:
         st.session_state.analysis_complete = False
+    if "uploaded_documents" not in st.session_state:
+        st.session_state.uploaded_documents = {}
 
     st.image("assets/carnet.jpg", width=300)
     st.markdown(
@@ -115,45 +130,6 @@ def main():
     )
 
     display_survey_data()
-
-    uploaded_files = st.file_uploader(
-        "Dodajte vlastite PDF dokumente za kontekst analize",
-        type=["pdf"],
-        accept_multiple_files=True,
-        help="Sadržaj datoteka bit će dodan u prompt kao korisnički učitani dokument.",
-    )
-
-    user_uploaded_documents: list[tuple[str, str]] = []
-    upload_errors: list[str] = []
-
-    if uploaded_files:
-        for uploaded_file in uploaded_files:
-            try:
-                text = extract_text_from_pdf(uploaded_file)
-            except Exception as exc:  # pragma: no cover - streamlit runtime feedback
-                error_message = f"Ne mogu pročitati {uploaded_file.name}: {exc}"
-                upload_errors.append(error_message)
-                print(error_message)
-                continue
-
-            if text and text.strip():
-                user_uploaded_documents.append((uploaded_file.name, text))
-            else:
-                warning_message = (
-                    f"Dokument {uploaded_file.name} ne sadrži čitljiv tekst."
-                )
-                upload_errors.append(warning_message)
-                print(warning_message)
-
-    if user_uploaded_documents:
-        st.success(
-            "Korisnički PDF dokumenti će biti uključeni u analizu: "
-            + ", ".join(doc[0] for doc in user_uploaded_documents)
-        )
-
-    if upload_errors:
-        for message in upload_errors:
-            st.warning(message)
 
     include_pdf = st.toggle(
         "Uključi UNIPU strategiju razvoja u analizu",
@@ -181,7 +157,77 @@ def main():
     else:
         placeholder = "Postavite dodatno pitanje..."
 
-    if prompt := st.chat_input(placeholder):
+    chat_controls = st.container()
+    with chat_controls:
+        upload_col, input_col = st.columns([1, 5], vertical_alignment="bottom")
+        with upload_col:
+            with st.popover("📎 Dodaj PDF", use_container_width=True):
+                st.markdown("#### Dodajte PDF dokumente")
+                st.write(
+                    "Sadržaj datoteka bit će dodan u prompt kao korisnički učitani dokument."
+                )
+                st.file_uploader(
+                    "Dodajte vlastite PDF dokumente za kontekst analize",
+                    type=["pdf"],
+                    accept_multiple_files=True,
+                    key="user_pdf_uploader",
+                    label_visibility="collapsed",
+                )
+        with input_col:
+            prompt = st.chat_input(placeholder, key="chat_prompt")
+
+    upload_errors: list[str] = []
+
+    uploaded_files = st.session_state.get("user_pdf_uploader")
+    current_uploaded_names: set[str] = set()
+
+    if uploaded_files is not None:
+        for uploaded_file in uploaded_files:
+            current_uploaded_names.add(uploaded_file.name)
+
+            if uploaded_file.name in st.session_state.uploaded_documents:
+                continue
+
+            try:
+                text = extract_text_from_pdf(uploaded_file)
+            except Exception as exc:  # pragma: no cover - streamlit runtime feedback
+                error_message = f"Ne mogu pročitati {uploaded_file.name}: {exc}"
+                upload_errors.append(error_message)
+                print(error_message)
+                continue
+
+            if text and text.strip():
+                st.session_state.uploaded_documents[uploaded_file.name] = text
+            else:
+                warning_message = (
+                    f"Dokument {uploaded_file.name} ne sadrži čitljiv tekst."
+                )
+                upload_errors.append(warning_message)
+                print(warning_message)
+
+        removed_documents = [
+            name
+            for name in list(st.session_state.uploaded_documents.keys())
+            if name not in current_uploaded_names
+        ]
+
+        for name in removed_documents:
+            del st.session_state.uploaded_documents[name]
+
+    user_uploaded_documents = list(st.session_state.uploaded_documents.items())
+
+    with chat_controls:
+        if user_uploaded_documents:
+            st.success(
+                "Korisnički PDF dokumenti će biti uključeni u analizu: "
+                + ", ".join(doc[0] for doc in user_uploaded_documents)
+            )
+
+        if upload_errors:
+            for message in upload_errors:
+                st.warning(message)
+
+    if prompt:
         st.session_state.messages.append({"role": "user", "content": prompt})
 
         if prompt.strip():
