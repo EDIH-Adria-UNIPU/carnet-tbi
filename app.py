@@ -7,12 +7,12 @@ from streamlit_pdf_viewer import pdf_viewer
 
 from prompt_builder import build_analysis_prompt
 from survey_ui import display_survey_data
-from utils import extract_text_from_pdf
+from utils import extract_text_from_pdf, generate_conversation_pdf
 
 load_dotenv()
 
 API_KEY = st.secrets.get("OPENAI_API_KEY")
-MODEL = "gpt-5"
+MODEL = "gpt-5-nano"
 
 if not API_KEY:
     st.error("API key not found.")
@@ -269,10 +269,36 @@ def main():
 
     if st.session_state.messages:
         st.markdown("---")
-        if st.button("Počni novi razgovor"):
-            st.session_state.messages = []
-            st.session_state.analysis_complete = False
-            st.rerun()
+
+        # Create columns for the buttons
+        col1, col2 = st.columns([1, 1])
+
+        with col1:
+            if st.button("Počni novi razgovor"):
+                st.session_state.messages = []
+                st.session_state.analysis_complete = False
+                st.rerun()
+
+        with col2:
+            try:
+                # Generate PDF from conversation
+                pdf_bytes = generate_conversation_pdf(st.session_state.messages)
+
+                # Create filename with timestamp
+                from datetime import datetime
+
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                filename = f"razgovor_{timestamp}.pdf"
+
+                st.download_button(
+                    label="📄 Preuzmi PDF",
+                    data=pdf_bytes,
+                    file_name=filename,
+                    mime="application/pdf",
+                    help="Preuzmi kompletan razgovor kao PDF dokument",
+                )
+            except Exception as e:
+                st.error(f"Greška pri generiranju PDF-a: {str(e)}")
 
 
 if __name__ == "__main__":
