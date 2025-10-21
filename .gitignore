@@ -3,8 +3,6 @@
 .env
 .streamlit/secrets.toml
 
-averages/
-
 __pycache__/
 
 *.pyc
