@@ -12,7 +12,7 @@ from utils import extract_text_from_pdf, generate_conversation_pdf
 load_dotenv()
 
 API_KEY = st.secrets.get("OPENAI_API_KEY")
-MODEL = "gpt-5-nano"
+MODEL = "gpt-5-mini"
 
 if not API_KEY:
     st.error("API key not found.")
